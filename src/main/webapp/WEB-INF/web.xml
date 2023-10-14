@@ -1,0 +1,24 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <context-param>
+  <param-name>fee</param-name>
+  <param-value>30000</param-value>
+  </context-param>
+  
+  
+  <servlet>
+  <servlet-name> signup </servlet-name>
+  <servlet-class> adv_j_servlet06_stu_jsp.servlet.StudSignup </servlet-class>  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name> signup </servlet-name>
+  <url-pattern> /signup</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
